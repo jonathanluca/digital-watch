@@ -1,24 +1,22 @@
 :root {
-    --blue: #23068b;
+    --blue: #23068b;                 /*criei variavel das corres que usei no codigo*/
     --black: #000000;
     --white: #fbf7f7;
 }
 
-.cabecalho {
-    text-align: center;
-    background-color: #23068b;
-}
 
-.paises {
-    padding: auto;
+.cabecalho {
+    text-align: center;                /*deixando meu texto no centro*/
+    background-color: #23068b;       /*deixando essa linha em azul no cabeçalho*/
+    justify-content: space-between;    /*deixando responsivel*/
 }
 
 .relogio {
-    text-align: center;
+    text-align: center;                /*coloquei meu relogio no centro*/
 }
 
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 100px;                      /*definindo o tanho da minhas img*/
+    height: 100px;
 }
